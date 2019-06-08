@@ -88,7 +88,4 @@ app.get('/search', (req, res) => {
 # Authors
   <li>Judy</li> <p>first edited by 2019/0608</p>
 
-<<<<<<< HEAD
-=======
 
->>>>>>> c4398bad1c803eac7796defadb45aefcc772a941
