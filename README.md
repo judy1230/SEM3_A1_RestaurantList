@@ -1,11 +1,12 @@
 # Project
 <h3>Restaurant List</h3>
 
-# Installing
+# Getting Start
 <h4>getting start by downloading the project and running below command in teminal.</h4>
 <pre><code>
 [~/restaurant_list] $ npm run dev
 </pre></code>
+<h4>open browser, typing localhost:3000 to start </h4>
 
 # Features
 <table>
