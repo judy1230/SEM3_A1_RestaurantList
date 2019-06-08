@@ -1,5 +1,5 @@
 # Project
-<h3>Restaurant List</h3>
+<h2>Restaurant List</h2>
 
 # Getting Start
 <h4>getting start by downloading the project and running below command in teminal.</h4>
@@ -7,6 +7,7 @@
 [~/restaurant_list] $ npm run dev
 </pre></code>
 <h4>open browser, typing localhost:3000 to start </h4>
+
 
 # Features
 <table>
@@ -32,12 +33,20 @@
 </tbody>
 </table>
 
+# Material
+<h4>browser:localhost＠port:3000</h4>
+<h4>software framewark: express</h4>
+<h4>if there is no express on your laptop pls install it by below command:</h4>
+<pre><code>
+[~/restaurant_list] $ npm i express
+</pre></code>
+
 # Deployment
-<p><h4>1. app.js</h4></p> <p>is the main js file to control each params actions in each of handlebars.</p>
-<p><h4>2. main.handlebars</h4></p> <p>is a orginal index html, control by app.js setting up on veiw engine and stored in folder views/layouts
-  , it's mean to display the restaurants in area of {{data}} </p>
-<p><h4>3. index.handlebars</h4></p> <p>this is a framework for each restuarant to apply in and shown in index page(in our prj is localhost:3000), also controled by app.js as below:  </p>
-  <pre><code>
+
+  <p><h4>1. app.js</h4></p> <p>is the main js file to control each params actions in each of handlebars.</p>
+  <p><h4>2. main.handlebars</h4></p> <p>is a orginal index html, control by app.js setting up on veiw engine and stored in folder       views/layouts, it's mean to display the restaurants in area of {{data}} </p>
+  <p><h4>3. index.handlebars</h4></p> <p>this is a framework for each restuarant to apply in and shown in index page(in our prj is localhost:3000), also controled by app.js as below:  </p>
+<pre><code>
 app.get('/', (req, res) => {
 	// past the movie data into 'index' partial template
 	res.render('index', { restaurants: restaurantList.results })
@@ -79,7 +88,4 @@ app.get('/search', (req, res) => {
 # Authors
   <li>Judy</li> <p>first edited by 2019/0608</p>
 
-<<<<<<< HEAD
-=======
 
->>>>>>> c4398bad1c803eac7796defadb45aefcc772a941
