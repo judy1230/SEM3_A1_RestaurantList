@@ -69,7 +69,7 @@ app.get('/restaurants/:restaurant_id', (req, res) => {
 })
 </code></pre> 
 
-<p><h4>5. search restaurant</h4></p> <p> when user want to search an specific restaurant either by restaurant name or category, typing the keyword in search bar, will return to route to http://localhost:3000/search?keyword=keyword, the keyword what user typing will link to "keyword" param of input tage in index.handlebars as below:</P>
+<p><h4>5. search restaurant</h4></p> <p> when user want to search an specific restaurant either by restaurant name or category, typing the keyword in search bar, will return to route to http://localhost:3000/search?keyword=keyword, the keyword what user typing will link to "keyword" param of input tag in index.handlebars as below:</P>
 <h4>  
 			
       <input type="text" name="keyword" class="form-control" placeholder="輸入餐廳、分類" aria-label="Restaurant Name..."
