@@ -4,9 +4,21 @@
 # Getting Start
 <h4>getting start by downloading the project and running below command in teminal.</h4>
 <pre><code>
+[~/restaurant_list] $ npm i express
 [~/restaurant_list] $ npm run dev
 </pre></code>
 <h4>open browser, typing localhost:3000 to start </h4>
+
+# Material
+<h4>browser:localhost＠port:3000</h4>
+<h4>software framewark: express</h4>
+<h4>app.js</h4>
+<h4>restaurant.json</h4>
+<h4>main.handlebars @views-->layouts</h4>
+<h4>index.handlebars @views</h4> 
+<h4>show.handlebars @views</h4>
+    
+
 
 
 # Features
@@ -33,13 +45,7 @@
 </tbody>
 </table>
 
-# Material
-<h4>browser:localhost＠port:3000</h4>
-<h4>software framewark: express</h4>
-<h4>if there is no express on your laptop pls install it by below command:</h4>
-<pre><code>
-[~/restaurant_list] $ npm i express
-</pre></code>
+
 
 # Deployment
 
@@ -63,12 +69,12 @@ app.get('/restaurants/:restaurant_id', (req, res) => {
 })
 </code></pre> 
 
-<p><h4>5. search restaurant</h4></p> <p> when user want to search an specific restaurant either by restaurant name or category, typing the keyword in search bar, will return to route to http://localhost:3000/search?keyword=keyword, the keyword what user typing will link to "keyword" param of input tage in index.handlebars as below:</P>
-<pre>  
+<p><h4>5. search restaurant</h4></p> <p> when user want to search an specific restaurant either by restaurant name or category, typing the keyword in search bar, will return to route to http://localhost:3000/search?keyword=keyword, the keyword what user typing will link to "keyword" param of input tag in index.handlebars as below:</P>
+<h4>  
 			
       <input type="text" name="keyword" class="form-control" placeholder="輸入餐廳、分類" aria-label="Restaurant Name..."
 						value="" aria-describedby="search-button">
-</pre>  
+</h4>
   
  <p>controled by app.js as below:  </p>
   <pre><code>
