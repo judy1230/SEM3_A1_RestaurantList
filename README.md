@@ -49,9 +49,9 @@
 
 # Deployment
 
-  <p><h4>1. app.js</h4></p> <p>is the main js file to control each params actions in each of handlebars.</p>
-  <p><h4>2. main.handlebars</h4></p> <p>is a orginal index html, control by app.js setting up on veiw engine and stored in folder       views/layouts, it's mean to display the restaurants in area of {{data}} </p>
-  <p><h4>3. index.handlebars</h4></p> <p>this is a framework for each restuarant to apply in and shown in index page(in our prj is localhost:3000), also controled by app.js as below:  </p>
+  <p><h4>1. app.js</h4></p> <p>This is the main js file to control each params actions in each of handlebars.</p>
+  <p><h4>2. main.handlebars</h4></p> <p>This is a orginal index html, control by app.js setting up on veiw engine and stored in folder       views/layouts, it's mean to display the restaurants in area of {{data}} </p>
+  <p><h4>3. index.handlebars</h4></p> <p>This is a framework for each restuarant to apply in and shown in index page(in our prj is localhost:3000), also controled by app.js as below:  </p>
 <pre><code>
 app.get('/', (req, res) => {
 	// past the movie data into 'index' partial template
